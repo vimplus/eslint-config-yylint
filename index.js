@@ -9,26 +9,26 @@
  * @off 表示此配置被关闭了，并且后面说明了关闭的原因
  */
 module.exports = {
-    "env": {
-        "browser": true,
-        "commonjs": true,
-        "node": true,
-        "es6": true
+    'env': {
+        'browser': true,
+        'commonjs': true,
+        'node': true,
+        'es6': true
     },
-    "extends": "eslint:recommended",
-    "parser": "babel-eslint",
-    "parserOptions": {
-        "ecmaFeatures": {
-            "experimentalObjectRestSpread": true,
-            "jsx": true,
-            "arrowFunctions": true,
-            "classes": true,
-            "modules": true,
-            "defaultParams": true
+    'extends': 'eslint:recommended',
+    'parser': 'babel-eslint',
+    'parserOptions': {
+        'ecmaFeatures': {
+            'experimentalObjectRestSpread': true,
+            'jsx': true,
+            'arrowFunctions': true,
+            'classes': true,
+            'modules': true,
+            'defaultParams': true
         },
-        "sourceType": "module"
+        'sourceType': 'module'
     },
-    "rules": {
+    'rules': {
         //
         //
         // 可能的错误
@@ -408,23 +408,24 @@ module.exports = {
         // @off 它用于限制某个具体的变量名不能使用
         'no-restricted-globals': 'off',
         // 禁止变量名与上层作用域内的定义过的变量重复
-        'no-shadow': [
-            'error',
-            {
-                builtinGlobals: false,
-                hoist: 'functions',
-                allow: [
-                    'resolve',
-                    'reject',
-                    'done',
-                    'cb',
-                    'callback',
-                    'error',
-                    'err',
-                    'e'
-                ]
-            }
-        ],
+        'no-shadow': 'off',
+        // 'no-shadow': [
+        //     'error',
+        //     {
+        //         builtinGlobals: false,
+        //         hoist: 'functions',
+        //         allow: [
+        //             'resolve',
+        //             'reject',
+        //             'done',
+        //             'cb',
+        //             'callback',
+        //             'error',
+        //             'err',
+        //             'e'
+        //         ]
+        //     }
+        // ],
         // 禁止使用保留字作为变量名
         'no-shadow-restricted-names': 'error',
         // 禁止使用未定义的变量
