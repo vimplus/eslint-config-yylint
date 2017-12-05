@@ -14,9 +14,7 @@
   "author": "txboy",
   "license": "ISC",
   "dependencies": {
-    "babel-eslint": "^8.0.3"
-  },
-  "devDependencies": {
+    "babel-eslint": "^8.0.3",
     "eslint": "^4.12.1",
     "eslint-plugin-react": "^7.5.1",
     "eslint-plugin-vue": "^2.1.0",
