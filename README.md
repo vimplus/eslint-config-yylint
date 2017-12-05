@@ -28,9 +28,9 @@ yarn add eslint eslint-config-yylint --dev
 
 ```javascript
 module.exports = {
-    "extends": "yylint",
-    "plugins": [
-        "react"
+    "extends": [
+        "yylint",
+        "eslint-config-yylint/react"
     ]
 };
 ```
@@ -39,9 +39,9 @@ module.exports = {
 
 ```javascript
 module.exports = {
-    "extends": "yylint",
-    "plugins": [
-        "vue"
+    "extends": [
+        "yylint",
+        "eslint-config-yylint/vue"
     ]
 };
 ```
