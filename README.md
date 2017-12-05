@@ -16,14 +16,12 @@ npm i -g eslint
 module.exports = {
     "extends": "yylint"
 };
-
 ```
 
 2、在项目里安装`yylint`配置：
 
 ```javascript
-yarn add eslint --dev
-yarn add eslint-config-yylint --dev
+yarn add eslint eslint-config-yylint --dev
 ```
 
 ## React项目
