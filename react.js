@@ -73,7 +73,8 @@ module.exports = {
         // 禁止拼写错误
         'react/no-typos': 'error',
         // 禁止使用字符串 ref
-        'react/no-string-refs': 'error',
+        // 'react/no-string-refs': 'error',
+        'react/no-string-refs': 'off',
         // 禁止在组件的内部存在未转义的 >, ", ' 或 }
         'react/no-unescaped-entities': 'error',
         // @fixable 禁止出现 HTML 中的属性，如 class
