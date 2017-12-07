@@ -264,7 +264,8 @@ module.exports = {
         // for (var i = 0; i < 10; i++) {
         //     (function () { return i })();
         // }
-        'no-loop-func': 'error',
+        // 'no-loop-func': 'error',
+        'no-loop-func': 'off',
         // 禁止使用 magic numbers
         // @off 太严格了
         'no-magic-numbers': 'off',

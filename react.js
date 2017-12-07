@@ -55,7 +55,7 @@ module.exports = {
         // 禁止在 componentDidUpdate 里面使用 setState
         'react/no-did-update-set-state': 'error',
         // 禁止直接修改 this.state
-        'react/no-direct-mutation-state': 'error',
+        'react/no-direct-mutation-state': 'off',
         // 禁止使用 findDOMNode
         'react/no-find-dom-node': 'error',
         // 禁止使用 isMounted
